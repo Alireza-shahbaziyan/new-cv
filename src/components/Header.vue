@@ -7,8 +7,9 @@
       lg:flex-row
       justify-center
       items-center
-    "
-    :class="`bg-${event.color}`"
+      bg-success
+      "
+    
   >
     <div
       data-aos="fade-down-right"
@@ -24,8 +25,9 @@
       <div class="text-white text-2xl md:text-3xl">I'm</div>
       <div
         data-aos="fade-right"
-        :class="`text-${event.color}`"
+        
         class="
+          text-success
           md:text-5xl
           my-4
           text-4xl

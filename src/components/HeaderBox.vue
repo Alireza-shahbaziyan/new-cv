@@ -1,7 +1,7 @@
 <template>
 <div
       class="
-        text-white text-7xl
+        text-white text-5xl
         md:text-9xl
         strokeme
         uppercase
@@ -12,7 +12,7 @@
       {{PartName}}
     </div>
     <div :class="`text-${color}`" class=" font-bold font-sans text-4xl absolute top-10">
-        {{PartName}} me
+        {{PartName}}
     </div>
 </template>
 <script>
