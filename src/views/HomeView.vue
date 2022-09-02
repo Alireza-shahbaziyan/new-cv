@@ -5,13 +5,17 @@ import Navbar from "./Navbar.vue";
 import Quality from "../components/Quality.vue";
 import SkillsView from "../components/SkillsView.vue";
 
+import Contact from "../components/Contact.vue";
+import Footer from "../components/Footer.vue";
 export default {
   components: {
     Header,
     About,
     Navbar,
     Quality,
-    SkillsView
+    SkillsView,
+    Contact,
+    Footer
 },
   data() {
     return {
@@ -59,10 +63,12 @@ export default {
 
 
 <template>
-  <Header :event="events.header" />
-  <Navbar :logo="events.header" />
-  <About :event="events" />
-  <Quality :event="events"/>
-  <SkillsView :event="events"/>
-  <Contact/>
+  <Header :event="events.header"/>
+  <Navbar :logo="events.header"/>
+  <About :event="events"  class="my-12"/>
+  <Quality :event="events" class="my-12"/>
+  <SkillsView :event="events" class="my-12"/>
+  <Contact class="my-12"/>
+  <Footer/>
+  
 </template>

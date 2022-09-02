@@ -11,7 +11,7 @@
     >
       {{PartName}}
     </div>
-    <div :class="`text-${color}`" class=" font-bold font-sans text-4xl absolute top-10">
+    <div class="text-success font-bold font-sans text-4xl absolute top-10">
         {{PartName}}
     </div>
 </template>

@@ -6,7 +6,7 @@
         <div  v-for="i in event.Skills" :key="i.id" class="w-full lg:w-1/2 lg:text-center font-bold">
             {{i.skillName}} <br>
             <progress
-            class="progress progress-success  w-80 lg:w-96 lg:h-9 h-6 my-1"
+            class="progress progress-success w-80 lg:w-96 lg:h-9 h-6 my-1"
             
             :value="i.value"
             max="100"
